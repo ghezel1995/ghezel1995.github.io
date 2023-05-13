@@ -1,0 +1,11 @@
+.post-footer {
+  width: 100%;
+  background-color: #1a1a1a;
+  display: flex;
+  justify-content: space-between;
+  padding: 2vh;
+  border-radius: 1.2vh;
+  color: aliceblue;
+}
+
+
