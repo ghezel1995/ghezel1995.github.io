@@ -1,5 +1,5 @@
 {
-  "homepage": "https://mahsaghezel.github.io",
+  "homepage": "https://ghezel1995.github.io",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
