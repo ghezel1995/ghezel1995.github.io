@@ -31,7 +31,7 @@ export default function Portfolio() {
                   >
                     <img className='img-thumbnail h-100' src={myImg.imgUrl} alt='' />
                     <br />
-                    <Link className='btn btn-outline-secondary' to={myImg.url}>
+                    <Link className='btn btn-outline-secondary mt-2 mb-2' target='_blank' to={myImg.url}>
                       {myImg.title}
                     </Link>
                   </div>

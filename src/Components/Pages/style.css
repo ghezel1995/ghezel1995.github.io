@@ -45,10 +45,13 @@
 }
 .me-icons {
   display: flex;
-  width: 100px;
+  width: 150px;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 3vh;
+}
+.s-icons {
+  font-size: 1.5rem;
 }
 .s-icons:hover {
   color: #6d9ee8;
@@ -130,17 +133,54 @@
   box-shadow: 10px 10px 5px rgb(137, 142, 144);
 }
 @media (max-width: 760px) {
-  .my-img{
+  .my-img {
     display: none;
   }
 }
 
-.backdrop{
+.backdrop {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 100vh;
   z-index: 10;
-  background: rgba(0,0,0,0.75);
+  background: rgba(0, 0, 0, 0.75);
+}
+/* contact me */
+.contact-image {
+  width: 50vh;
+  height: 50vh;
+  border: none;
+  border-radius: 10px;
+  margin: 5px;
+}
+a {
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+a i{
+  margin-right: 5px;
+}
+.contact-btn {
+  width: 100%;
+  margin: 5px;
+  background-color: transparent;
+  border: 1px solid black;
+  border-radius: 8px;
+  padding: 5px;
+  text-decoration: none;
+}
+.contact-btn:hover {
+  color: #6d9ee8;
+  border: 1px solid #6d9ee8;
+}
+.btns{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
 }

@@ -33,6 +33,20 @@ function TypeFilter({ setActive, active, setFiltered, ImgData }) {
         >
           JavaScript
         </button>
+        <button
+          id='filter-btn'
+          className={active === 'ReactJS' ? 'active' : ''}
+          onClick={() => setActive('ReactJS')}
+        >
+          ReactJS
+        </button>
+        <button
+          id='filter-btn'
+          className={active === 'ReactRedux' ? 'active' : ''}
+          onClick={() => setActive('ReactRedux')}
+        >
+          ReactRedux
+        </button>
       </div>
     </>
   );
