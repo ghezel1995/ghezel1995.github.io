@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import './TypeFilter.css'
+import './TypeFilter.css';
 function TypeFilter({ setActive, active, setFiltered, ImgData }) {
   useEffect(() => {
     if (active === 'All') {
