@@ -106,9 +106,12 @@
 .educations {
   width: 100%;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
   align-items: flex-start;
+}
+.certificates{
+  margin: 0 auto;
+  width: 100%;
 }
 
 .sections {
@@ -139,7 +142,7 @@
 .certificate-sections {
   display: flex;
   justify-content: space-between;
-  align-items: flex-end;
+  align-items: center;
   margin: 20px;
   padding: 20px;
 }
@@ -227,4 +230,7 @@ a i {
 .back-button:hover{
   background-color: #6d9ee8;
   color: #f0f0f5;
+}
+.cer-skills{
+  font-weight: 700;
 }
