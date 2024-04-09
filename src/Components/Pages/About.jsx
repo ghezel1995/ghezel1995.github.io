@@ -32,13 +32,13 @@ export default function About() {
         </h1>
         <p className='about-p'>
           I have expertise in a number of skills related to web development. I
-          am skilled{' '}
+          am skilled in{' '}
           <inspan className='qoute'>
             {' '}
-            HTML, CSS, JavaScript, ReactJS, Bootstrap, responsive web
-            design,Redux.js, TypeScript and GitHub
+            HTML, CSS, JavaScript, ReactJS, Bootstrap, responsive web design,
+            Redux.js, TypeScript, and GitHub. 
           </inspan>
-          . With these skills, I can design and develop high-quality websites
+          With these skills, I can design and develop high-quality websites
           and web applications that are both user-friendly and visually
           appealing. I am passionate about my work, and I am always eager to
           learn new technologies and techniques to improve my skills. I believe
@@ -48,7 +48,9 @@ export default function About() {
         <Resume />
         <div className='text-center'>
           <div className='btn btn-outline-secondary mt-4 text-center'>
-            <Link to ='/contact' className='text-decoration-none'>Contact with me</Link>
+            <Link to='/contact' className='text-decoration-none'>
+              Contact with me
+            </Link>
           </div>
         </div>
       </div>

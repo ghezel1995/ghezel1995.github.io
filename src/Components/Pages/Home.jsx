@@ -10,13 +10,6 @@ export default function Home() {
         <h6 className='my-job'>Front-End Developer / Software Engineer</h6>
         <div className='me-icons'>
           <a
-            href='https://www.instagram.com/mahsa.gzl/'
-            target='_blank'
-            rel='noreferrer'
-          >
-            <i className='bi bi-instagram s-icons'></i>
-          </a>
-          <a
             href='https://www.linkedin.com/in/mahsaghezel/'
             target='_blank'
             rel='noreferrer'

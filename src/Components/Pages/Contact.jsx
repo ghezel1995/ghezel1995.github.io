@@ -4,11 +4,10 @@ import pic from '../../asset/mahsa.jpg';
 export default function Contact() {
   return (
     <div className='container row'>
-      <div className='d-flex justify-content-center align-items-center flex-column col-md-6'>
-        <h1>Mahsa Ghezel</h1>
-        <h4>Front-End Developer</h4>
-
-        <div className='email-box'>
+      <div className='d-flex justify-content-center align-items-start flex-column col-md-6'>
+        <div className='email-box  ms-3'>
+          <h1 className='touch'>Let's get in touch!</h1>
+          <h4>Mahsa Ghezel / Front-End Developer</h4>
           <p>
             <strong>Email: </strong> mahsa.ghezel.1995@gmail.com
           </p>
@@ -19,12 +18,6 @@ export default function Contact() {
             className='contact-btn'
           >
             <i className='bi bi-linkedin s-icons'></i> LinkedIn
-          </a>
-          <a
-            href='https://www.instagram.com/mahsa.gzl/'
-            className='contact-btn'
-          >
-            <i className='bi bi-instagram s-icons'></i> Instagram
           </a>
           <a
             href='https://github.com/ghezel1995?tab=repositories'

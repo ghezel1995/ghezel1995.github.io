@@ -45,7 +45,7 @@
 }
 .me-icons {
   display: flex;
-  width: 150px;
+  width: 70px;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 3vh;
@@ -196,4 +196,7 @@ a i {
   justify-content: center;
   align-items: center;
   text-align: center;
+}
+.touch{
+  color: #6d9ee8;
 }
