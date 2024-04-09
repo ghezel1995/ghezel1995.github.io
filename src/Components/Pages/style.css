@@ -200,3 +200,31 @@ a i {
 .touch{
   color: #6d9ee8;
 }
+
+.post-footer{
+  width: 100%;
+  background-color: #6d9ee8;
+  display: flex;
+  justify-content: space-between;
+  padding: 2vh;
+  border-radius: 1.2vh;
+  color: aliceblue;
+}
+
+.back-button-container{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.back-button{
+  color: #6d9ee8;
+  border: 1px solid #6d9ee8;
+  border-radius: 4px;
+  margin: 10px;
+  padding: 10px 30px;
+  transition: all 200ms ease-in-out;
+}
+.back-button:hover{
+  background-color: #6d9ee8;
+  color: #f0f0f5;
+}

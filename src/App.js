@@ -6,28 +6,24 @@ import Portfolio from './Components/Pages/Portfolio';
 import Contact from './Components/Pages/Contact';
 import Blog from './Components/Pages/Blog';
 import Layout from './Components/Pages/Layout';
-import Difference from './Components/BlogPages/Difference';
-import Frontend from './Components/BlogPages/Frontend'
-import Backend from './Components/BlogPages/BackEnd'
-import Fullstack from './Components/BlogPages/Fullstack'
+import { Posts } from './Components/BlogPages/Posts';
 
 function App() {
   return (
     <>
-        <Routes>
-          <Route path='/*' element={<Layout />} >
+      <Routes>
+        <Route path='/*' element={<Layout />}>
           <Route index element={<Home />} />
-          {/* <Route path='/' element={<Home />} /> */}
           <Route path='about' element={<About />} />
           <Route path='portfolio' element={<Portfolio />} />
           <Route path='contact' element={<Contact />} />
           <Route path='blog' element={<Blog />} />
-          <Route path='difference' element={<Difference />} />
-          <Route path='frontend' element={<Frontend />} />
-          <Route path='backend' element={<Backend />} />
-          <Route path='fullstack' element={<Fullstack />} />
-          </Route>
-        </Routes>
+          <Route
+            path='post/:id'
+            element={ <Posts />}
+          />
+        </Route>
+      </Routes>
       <div className='App'></div>
     </>
   );

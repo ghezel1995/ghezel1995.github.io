@@ -15,16 +15,17 @@ export default function Blog(props) {
           <div className='row g-3 mb-5'>
             {post.map((myPost) => {
               return (
-                <Link to={myPost.path} className='col-12 col-lg-6 mb-5 nav-link'>
-                  <div  key={myPost.id}>
-                    
+                <Link
+                  to={`/post/${myPost.id}`}
+                  className='col-12 col-lg-6 mb-5 nav-link'
+                >
+                  <div key={myPost.id}>
                     <img
-                     style={{height: '50vh', width: '100%'}}
+                      style={{ height: '50vh', width: '100%' }}
                       className='img-thumbnail rounded'
                       src={myPost.img}
                       alt=''
                     />
-                    
                     <div>
                       <h6>{myPost.date}</h6>
                       <h3>{myPost.title}</h3>
