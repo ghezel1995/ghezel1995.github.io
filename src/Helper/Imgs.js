@@ -8,20 +8,27 @@ const ImgData = [
   },
   {
     id: 2,
+    url: 'https://github.com/ghezel1995/admin-dashboard',
+    title: 'Admin Dashboard with NextJS',
+    imgUrl: require('../asset/admin.png'),
+    type: 'NextJS',
+  },
+  {
+    id: 3,
     url: 'https://finalweatherproject.netlify.app/',
     title: 'Online Weather App with React',
     imgUrl: require('../asset/weather-react.png'),
     type: 'ReactJS',
   },
   {
-    id: 3,
+    id: 4,
     url: 'https://github.com/ghezel1995/ghezel1995.github.io',
     title: 'My Personal Portfolio GitHub',
     imgUrl: require('../asset/personal.png'),
     type: 'ReactJS',
   },
   {
-    id: 4,
+    id: 5,
     url: 'https://becreativewithmahsa.netlify.app/',
     title: 'How to be Creative',
     imgUrl: require('../asset/02.PNG'),
@@ -29,7 +36,7 @@ const ImgData = [
   },
 
   {
-    id: 5,
+    id: 6,
     url: 'https://github.com/ghezel1995/todolist',
     title: 'To-Do List - on GitHub',
     imgUrl: require('../asset/todolist.png'),
@@ -37,21 +44,21 @@ const ImgData = [
   },
 
   {
-    id: 6,
+    id: 7,
     url: 'https://newslettersignupform.netlify.app/',
     title: 'Newsletter Signup Form',
     imgUrl: require('../asset/newsletter.png'),
     type: 'JavaScript',
   },
   {
-    id: 7,
+    id: 8,
     url: 'https://weatherwithvanillajs.netlify.app/',
     title: 'Online Weather App - vanillaJS',
     imgUrl: require('../asset/vanillaweather.png'),
     type: 'JavaScript',
   },
   {
-    id: 8,
+    id: 9,
     url: 'https://mahsaghezel.netlify.app/',
     title: 'Portfolio - Bootstrap',
     imgUrl: require('../asset/bootstrapPortfolio.png'),

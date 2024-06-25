@@ -47,6 +47,13 @@ function TypeFilter({ setActive, active, setFiltered, ImgData }) {
         >
           ReactRedux
         </button>
+        <button
+          id='filter-btn'
+          className={active === 'NextJS' ? 'active' : ''}
+          onClick={() => setActive('NextJS')}
+        >
+          NextJS
+        </button>
       </div>
     </>
   );

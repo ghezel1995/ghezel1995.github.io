@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.aa1ce859.css",
-    "main.js": "/static/js/main.47f50b77.js",
+    "main.css": "/static/css/main.a3dde353.css",
+    "main.js": "/static/js/main.1ce389ba.js",
     "static/media/back1.jpg": "/static/media/back1.ed07ffeb969f635eefa1.jpg",
     "static/media/front.jpg": "/static/media/front.2aea0c2162a20d9460d8.jpg",
     "static/media/back.jpg": "/static/media/back.2f2967c10233fb1fe6ee.jpg",
@@ -10,24 +10,34 @@
     "static/media/10.jpg": "/static/media/10.40886cc97a288c865ab9.jpg",
     "static/media/12.jpg": "/static/media/12.4971b3c2b0fd353a3f73.jpg",
     "static/media/13.jpg": "/static/media/13.9ea4905a5c4b53f0d785.jpg",
+    "static/media/mshop.png": "/static/media/mshop.a0529671caa721c4f1c9.png",
     "static/media/05.png": "/static/media/05.cafffb32a7b045bee59e.png",
     "static/media/lab.jpg": "/static/media/lab.0047ed570e156f916f65.jpg",
     "static/media/01.png": "/static/media/01.2454c1507b721295a62a.png",
     "static/media/03.png": "/static/media/03.d5b9b4fa9c5248064d6f.png",
     "static/media/07.png": "/static/media/07.280ad231af7b50a4b4b6.png",
+    "static/media/162038.png": "/static/media/162038.08eed3d66008601a0831.png",
+    "static/media/169865.png": "/static/media/169865.d48d44b78ff76937ff57.png",
+    "static/media/168338.png": "/static/media/168338.e4af16bf801a261a1599.png",
     "static/media/newsletter.png": "/static/media/newsletter.8f318754522fa72b9959.png",
+    "static/media/164825.png": "/static/media/164825.871a86617abfaf34c475.png",
+    "static/media/C67N7RKEJ7DK.jpeg": "/static/media/C67N7RKEJ7DK.5c895aa92e0ba20009e7.jpeg",
     "static/media/todolist.png": "/static/media/todolist.f5ab3d8206acdae2d389.png",
     "static/media/02.PNG": "/static/media/02.ee3e7146a8c34876ae41.PNG",
+    "static/media/personal.png": "/static/media/personal.63828e515dab6790948a.png",
     "static/media/04.png": "/static/media/04.efe8dca1060552521e21.png",
     "static/media/weather-react.png": "/static/media/weather-react.57828c283af64db32e56.png",
     "static/media/mahsa.jpg": "/static/media/mahsa.6649989cd5d31ab9f73f.jpg",
+    "static/media/ff18b861-57ac-4681-85d8-6f56da5b9668.jpg": "/static/media/ff18b861-57ac-4681-85d8-6f56da5b9668.e4ea428d3873c04a9321.jpg",
+    "static/media/logo_Technical-and-Vocational-University-TVU.jpg": "/static/media/logo_Technical-and-Vocational-University-TVU.8022068ae882ef7716e1.jpg",
     "static/media/bootstrapPortfolio.png": "/static/media/bootstrapPortfolio.68774316eaf5fbb3b225.png",
+    "static/media/about.svg": "/static/media/about.a7f876a62561bbf9165f68243c82c902.svg",
     "index.html": "/index.html",
-    "main.aa1ce859.css.map": "/static/css/main.aa1ce859.css.map",
-    "main.47f50b77.js.map": "/static/js/main.47f50b77.js.map"
+    "main.a3dde353.css.map": "/static/css/main.a3dde353.css.map",
+    "main.1ce389ba.js.map": "/static/js/main.1ce389ba.js.map"
   },
   "entrypoints": [
-    "static/css/main.aa1ce859.css",
-    "static/js/main.47f50b77.js"
+    "static/css/main.a3dde353.css",
+    "static/js/main.1ce389ba.js"
   ]
 }
