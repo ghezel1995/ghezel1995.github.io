@@ -36,19 +36,19 @@ export default function About() {
           <inspan className='qoute'>
             {' '}
             HTML, CSS, JavaScript, ReactJS, Bootstrap, responsive web design,
-            Redux.js, TypeScript, and GitHub. 
+            Redux.js, TypeScript, and GitHub.
           </inspan>
-          With these skills, I can design and develop high-quality websites
-          and web applications that are both user-friendly and visually
-          appealing. I am passionate about my work, and I am always eager to
-          learn new technologies and techniques to improve my skills. I believe
-          that my experience and skills make me a valuable asset to any team or
-          project in need of a skilled and dedicated web developer.
+          With these skills, I can design and develop high-quality websites and
+          web applications that are both user-friendly and visually appealing. I
+          am passionate about my work, and I am always eager to learn new
+          technologies and techniques to improve my skills. I believe that my
+          experience and skills make me a valuable asset to any team or project
+          in need of a skilled and dedicated web developer.
         </p>
         <Resume />
         <div className='text-center'>
-          <div className='btn btn-outline-secondary mt-4 text-center'>
-            <Link to='/contact' className='text-decoration-none'>
+          <div className='btn btn-outline-secondary mt-4 mb-4 text-center'>
+            <Link to='/contact' className='text-decoration-none '>
               Contact with me
             </Link>
           </div>
