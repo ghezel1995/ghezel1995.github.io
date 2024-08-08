@@ -4,7 +4,7 @@ This is my personal portfolio website built using **React.js** and styled with *
 
 ## Check it out online on Netlify
 
-### [Online Demo](https://ghezel1995.github.io)
+### [Online Demo](https://mahsaghezel1995.netlify.app/)
 
 ## Installation & Setup
 
