@@ -105,9 +105,6 @@
 
 .educations {
   width: 100%;
-  display: flex;
-  justify-content: space-around;
-  align-items: flex-start;
 }
 .certificates{
   margin: 0 auto;
@@ -116,7 +113,7 @@
 
 .sections {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
   margin: 10px;
 }
@@ -127,6 +124,10 @@
 
 .degrees h3 {
   color: #6d9ee8;
+  font-size: 1.5rem;
+}
+.degrees h6 {
+  font-size: 1.1rem;
 }
 
 .logoImg {
@@ -152,7 +153,9 @@
 }
 
 .meta-detail {
-  margin-left: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .meta-detail h3 {

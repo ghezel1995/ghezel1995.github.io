@@ -5,12 +5,16 @@ import { Link } from 'react-router-dom';
 
 export default function About() {
   return (
-    <div className='container'>
+    <div className='container-sm'>
       <div className='imageContainer'>
         <h6 className='welcome-msg' role='alert'>
           Hi there, So nice to see you in my page.
         </h6>
-        <img src={aboutImg} alt='about img' className='about-img' />
+        <img
+          src={aboutImg}
+          alt='about img'
+          className='about-img d-none d-md-block'
+        />
       </div>
       <div className='about'>
         <h1>

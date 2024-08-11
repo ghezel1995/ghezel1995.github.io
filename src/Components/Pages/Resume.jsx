@@ -11,8 +11,8 @@ export default function Resume() {
     <>
       <div className='resume col justify-content-center'>
         <h1 className='h1-about'>Educations</h1>
-        <div className='educations'>
-          <div className='sections'>
+        <div className='educations row'>
+          <div className='sections col-md'>
             <img src={logoTechniq} alt='' className='logoImg' />
             <div className='degrees'>
               <h3>Software Engineering</h3>
@@ -20,7 +20,7 @@ export default function Resume() {
               <small>2021</small>
             </div>
           </div>
-          <div className='sections'>
+          <div className='sections col-md'>
             <img src={logoTechniq} alt='' className='logoImg' />
             <div className='degrees'>
               <h3>Software Associate Degree</h3>
@@ -31,10 +31,14 @@ export default function Resume() {
         </div>
         <h1 className='h1-about'>Certificates</h1>
         <div className='certificates'>
-          <div className='certificate-sections'>
-            <img src={meta} alt='' className='certificateImg' />
-            <div className='meta-detail'>
-              <h3>Advanced React</h3>
+          <div className='certificate-sections row'>
+            <img
+              src={meta}
+              alt=''
+              className='certificateImg col-md m-md-3 img-fluid'
+            />
+            <div className='meta-detail col-md'>
+              <h3 className=' mt-3'>Advanced React</h3>
               <h6>Meta / Coursera</h6>
               <p>
                 <span className='cer-skills'>Skills:</span> Proficient in React
@@ -51,8 +55,8 @@ export default function Resume() {
               </Link>
             </div>
           </div>
-          <div className='certificate-sections'>
-            <div className='meta-detail'>
+          <div className='certificate-sections row'>
+            <div className='meta-detail col-md m-md-3'>
               <h3>React Development</h3>
               <h6>SheCodes</h6>
               <p>
@@ -69,11 +73,19 @@ export default function Resume() {
                 Download the certificate
               </Link>
             </div>
-            <img src={reactCer} alt='' className='certificateImg' />
+            <img
+              src={reactCer}
+              alt=''
+              className='certificateImg col-md mt-3 img-fluid'
+            />
           </div>
-          <div className='certificate-sections'>
-            <img src={responsive} alt='' className='certificateImg' />
-            <div className='meta-detail'>
+          <div className='certificate-sections row'>
+            <img
+              src={responsive}
+              alt=''
+              className='certificateImg mb-3 col-md img-fluid'
+            />
+            <div className='meta-detail col-md'>
               <h3>Responsive Web Development</h3>
               <h6>SheCodes</h6>
               <p>
@@ -93,8 +105,8 @@ export default function Resume() {
               </Link>
             </div>
           </div>
-          <div className='certificate-sections'>
-            <div className='meta-detail'>
+          <div className='certificate-sections row'>
+            <div className='meta-detail col-md'>
               <h3>Web Development</h3>
               <h6>SheCodes</h6>
               <p>
@@ -112,11 +124,19 @@ export default function Resume() {
                 Download the certificate
               </Link>
             </div>
-            <img src={web} alt='' className='certificateImg' />
+            <img
+              src={web}
+              alt=''
+              className='certificateImg img-fluid col-md mt-3'
+            />
           </div>
-          <div className='certificate-sections'>
-            <img src={coding} alt='' className='certificateImg' />
-            <div className='meta-detail'>
+          <div className='certificate-sections row'>
+            <img
+              src={coding}
+              alt=''
+              className='certificateImg img-fluid col-md mb-3'
+            />
+            <div className='meta-detail col-md'>
               <h3>Introduction to Coding</h3>
               <h6>SheCodes</h6>
               <p>
@@ -133,8 +153,8 @@ export default function Resume() {
               </Link>
             </div>
           </div>
-          <div className='certificate-sections'>
-            <div className='meta-detail'>
+          <div className='certificate-sections row'>
+            <div className='meta-detail col-md'>
               <h3>React and Redux</h3>
               <h6>SoloLearn</h6>
               <p>
@@ -152,7 +172,11 @@ export default function Resume() {
                 Download the certificate
               </Link>
             </div>
-            <img src={reactRedux} alt='' className='certificateImg' />
+            <img
+              src={reactRedux}
+              alt=''
+              className='certificateImg img-fluid col-md mt-3'
+            />
           </div>
         </div>
       </div>
