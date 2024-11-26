@@ -21,11 +21,26 @@ function TypeFilter({ setActive, active, setFiltered, ImgData }) {
         </button>
         <button
           id='filter-btn'
-          className={active === 'Bootstrap' ? 'active' : ''}
-          onClick={() => setActive('Bootstrap')}
+          className={active === 'MERNStack' ? 'active' : ''}
+          onClick={() => setActive('MERNStack')}
         >
-          Bootstrap
+          MERN-Stack
         </button>
+        <button
+          id='filter-btn'
+          className={active === 'NodeJS' ? 'active' : ''}
+          onClick={() => setActive('NodeJS')}
+        >
+          NodeJS
+        </button>
+        <button
+          id='filter-btn'
+          className={active === 'VueJS' ? 'active' : ''}
+          onClick={() => setActive('VueJS')}
+        >
+          VueJS
+        </button>
+
         <button
           id='filter-btn'
           className={active === 'JavaScript' ? 'active' : ''}
@@ -53,6 +68,13 @@ function TypeFilter({ setActive, active, setFiltered, ImgData }) {
           onClick={() => setActive('NextJS')}
         >
           NextJS
+        </button>
+        <button
+          id='filter-btn'
+          className={active === 'Bootstrap' ? 'active' : ''}
+          onClick={() => setActive('Bootstrap')}
+        >
+          Bootstrap
         </button>
       </div>
     </>
