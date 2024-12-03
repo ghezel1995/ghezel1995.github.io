@@ -40,8 +40,9 @@ export default function About() {
           <inspan className='qoute'>
             {' '}
             HTML, CSS, JavaScript, ReactJS, Bootstrap, responsive web design,
-            Redux.js, TypeScript, and GitHub.
-          </inspan>
+            Redux.js, TypeScript,MERN Stack(MongoDB, Express.js, React.js,
+            Node.js), and GitHub.
+          </inspan>{' '}
           With these skills, I can design and develop high-quality websites and
           web applications that are both user-friendly and visually appealing. I
           am passionate about my work, and I am always eager to learn new

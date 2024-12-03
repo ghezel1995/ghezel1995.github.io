@@ -4,7 +4,7 @@ const ImgData = [
     url: 'https://github.com/ghezel1995/mern-shop',
     title: 'MERN-Shop E-Commerce',
     imgUrl: require('../asset/mern-overview.png'),
-    type: 'MERNStack, ReactRedux',
+    type: 'MERNStack, ReactRedux, ReactJS',
   },
   {
     id: 2,
