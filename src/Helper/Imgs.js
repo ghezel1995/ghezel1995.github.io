@@ -43,7 +43,7 @@ const ImgData = [
   },
   {
     id: 7,
-    url: 'https://finalweatherproject.netlify.app/',
+    url: 'https://github.com/ghezel1995/reactweatherfinalproject',
     title: 'Online Weather App with React',
     imgUrl: require('../asset/weather-react.png'),
     type: 'ReactJS',
@@ -57,7 +57,7 @@ const ImgData = [
   },
   {
     id: 9,
-    url: 'https://becreativewithmahsa.netlify.app/',
+    url: 'https://github.com/ghezel1995/frontend-bootcamp-site',
     title: 'How to be Creative',
     imgUrl: require('../asset/02.PNG'),
     type: 'Bootstrap',
@@ -73,14 +73,14 @@ const ImgData = [
 
   {
     id: 11,
-    url: 'https://newslettersignupform.netlify.app/',
+    url: 'https://github.com/ghezel1995/NewsletterForm',
     title: 'Newsletter Signup Form',
     imgUrl: require('../asset/newsletter.png'),
     type: 'JavaScript',
   },
   {
     id: 12,
-    url: 'https://weatherwithvanillajs.netlify.app/',
+    url: 'https://github.com/ghezel1995/weather',
     title: 'Online Weather App - vanillaJS',
     imgUrl: require('../asset/vanillaweather.png'),
     type: 'JavaScript',
