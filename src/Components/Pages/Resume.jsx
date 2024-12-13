@@ -15,17 +15,17 @@ export default function Resume() {
           <div className='sections col-md'>
             <img src={logoTechniq} alt='' className='logoImg' />
             <div className='degrees'>
-              <h3>Software Engineering</h3>
-              <h6>Technical and Vocational University</h6>
-              <small>2021</small>
+              <h5>Computer Software Technology Engineering</h5>
+              <h6>Bachelor of Science (B.Sc.)</h6>
+              <small>Technical and Vocational University - [ 2021 ]</small>
             </div>
           </div>
           <div className='sections col-md'>
             <img src={logoTechniq} alt='' className='logoImg' />
             <div className='degrees'>
-              <h3>Software Associate Degree</h3>
-              <h6>Technical and Vocational University</h6>
-              <small>2016</small>
+              <h5>Computer Software</h5>
+              <h6>Associate Degree</h6>
+              <small>Technical and Vocational University - [ 2016 ]</small>
             </div>
           </div>
         </div>
@@ -48,7 +48,7 @@ export default function Resume() {
                 seamless data exchange between frontend and backend systems.
               </p>
               <Link
-                to='https://coursera.org/share/d7b1009ecdb3db7421f52ad7b197af74'
+                to='https://coursera.org/verify/C67N7RKEJ7DK'
                 target='_blank'
               >
                 Download the certificate
@@ -67,7 +67,7 @@ export default function Resume() {
                 Hooks, API integration.
               </p>
               <Link
-                to='https://s3.amazonaws.com/shecodesio-production/students/certificates/000/169/865/original/169865.png?1691405553'
+                to='https://www.shecodes.io/certificates/fc0842c80f30b7c343404f4beaef57af'
                 target='_blank'
               >
                 Download the certificate
@@ -98,7 +98,7 @@ export default function Resume() {
                 accessibility.
               </p>
               <Link
-                to='https://coursera.org/share/d7b1009ecdb3db7421f52ad7b197af74'
+                to='https://www.shecodes.io/certificates/0d1e7ff4f206deaffce7a1b252f130ea'
                 target='_blank'
               >
                 Download the certificate
@@ -118,7 +118,7 @@ export default function Resume() {
                 functionality and user experience.
               </p>
               <Link
-                to='https://s3.amazonaws.com/shecodesio-production/students/certificates/000/164/825/original/164825.png?1688902262'
+                to='https://www.shecodes.io/certificates/54b2034307c9723e1e776123c74733be'
                 target='_blank'
               >
                 Download the certificate
@@ -146,7 +146,7 @@ export default function Resume() {
                 leveraging these skills to build engaging user interfaces
               </p>
               <Link
-                to='https://coursera.org/share/d7b1009ecdb3db7421f52ad7b197af74'
+                to='https://www.shecodes.io/certificates/da28304860aecb8a1e434aa2a8db9924'
                 target='_blank'
               >
                 Download the certificate
@@ -166,7 +166,7 @@ export default function Resume() {
                 management capabilities.
               </p>
               <Link
-                to='https://www.linkedin.com/in/mahsaghezel/details/certifications/1635550213644/single-media-viewer?type=IMAGE&profileId=ACoAAC6W64oB_XMPSPoYaNudph9403gUJyQRgo0&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BqXXHpuRVRkqg9TS63s33yA%3D%3D'
+                to='https://www.sololearn.com/de/certificates/CC-LGAUCKTD'
                 target='_blank'
               >
                 Download the certificate

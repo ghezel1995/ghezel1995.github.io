@@ -68,7 +68,7 @@ const ImgData = [
     url: 'https://github.com/ghezel1995/todolist',
     title: 'To-Do List - on GitHub',
     imgUrl: require('../asset/todolist.png'),
-    type: 'ReactRedux',
+    type: 'ReactRedux, ReactJS',
   },
 
   {
@@ -87,7 +87,7 @@ const ImgData = [
   },
   {
     id: 13,
-    url: 'https://mahsaghezel.netlify.app/',
+    url: 'https://github.com/ghezel1995/week-four-portfolio',
     title: 'Portfolio - Bootstrap',
     imgUrl: require('../asset/bootstrapPortfolio.png'),
     type: 'Bootstrap',

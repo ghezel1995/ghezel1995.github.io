@@ -106,7 +106,7 @@
 .educations {
   width: 100%;
 }
-.certificates{
+.certificates {
   margin: 0 auto;
   width: 100%;
 }
@@ -122,12 +122,11 @@
   margin-left: 25px;
 }
 
-.degrees h3 {
+.degrees h5 {
   color: #6d9ee8;
-  font-size: 1.5rem;
 }
 .degrees h6 {
-  font-size: 1.1rem;
+    color: #a2c4f7;
 }
 
 .logoImg {
@@ -203,11 +202,11 @@ a i {
   align-items: center;
   text-align: center;
 }
-.touch{
+.touch {
   color: #6d9ee8;
 }
 
-.post-footer{
+.post-footer {
   width: 100%;
   background-color: #6d9ee8;
   display: flex;
@@ -217,12 +216,12 @@ a i {
   color: aliceblue;
 }
 
-.back-button-container{
+.back-button-container {
   display: flex;
   justify-content: flex-end;
 }
 
-.back-button{
+.back-button {
   color: #6d9ee8;
   border: 1px solid #6d9ee8;
   border-radius: 4px;
@@ -230,10 +229,10 @@ a i {
   padding: 10px 30px;
   transition: all 200ms ease-in-out;
 }
-.back-button:hover{
+.back-button:hover {
   background-color: #6d9ee8;
   color: #f0f0f5;
 }
-.cer-skills{
+.cer-skills {
   font-weight: 700;
 }

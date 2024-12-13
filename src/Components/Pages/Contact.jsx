@@ -16,12 +16,16 @@ export default function Contact() {
           <a
             href='https://www.linkedin.com/in/mahsaghezel/'
             className='contact-btn'
+            target='_blank'
+            rel='noreferrer'
           >
             <i className='bi bi-linkedin s-icons'></i> LinkedIn
           </a>
           <a
             href='https://github.com/ghezel1995?tab=repositories'
             className='contact-btn'
+            target='_blank'
+            rel='noreferrer'
           >
             <i className='bi bi-github s-icons'></i> GitHub
           </a>

@@ -41,7 +41,7 @@ export default function About() {
             {' '}
             HTML, CSS, JavaScript, ReactJS, Bootstrap, responsive web design,
             Redux.js, TypeScript,MERN Stack(MongoDB, Express.js, React.js,
-            Node.js), and GitHub.
+            Node.js), GitHub and Docker.
           </inspan>{' '}
           With these skills, I can design and develop high-quality websites and
           web applications that are both user-friendly and visually appealing. I
