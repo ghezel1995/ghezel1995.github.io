@@ -24,7 +24,7 @@ export default function Home() {
             <i className='bi bi-github s-icons'></i>
           </a>
         </div>
-        <a href='./Contact' className='btn btn-outline-secondary'>
+        <a href='./contact' className='btn btn-outline-secondary'>
           Contact Me
         </a>
       </div>
