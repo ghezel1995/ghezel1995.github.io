@@ -21,15 +21,17 @@ export default function About() {
           About <span className='span'>Me</span>
         </h1>
         <p className='about-p'>
-          I am <span className='qoute'>Mahsa Ghezel</span>, a 28-year-old{' '}
-          <span className='qoute'>software engineer</span> and{' '}
-          <span className='qoute'>frontend developer</span>. I'm passionate
-          about frontend development and aspire to become a professional in this
-          field. With my strong foundation in programming and design, I'm eager
-          to start my career in frontend development and bring my skills to the
-          table. I'm excited about opportunities to work with dynamic teams and
-          contribute to impactful projects. Thank you for considering me for a
-          frontend developer position.
+          I am <span className='qoute'>Mahsa Ghezel</span>, a 29-year-old{' '}
+          <span className='qoute'>software engineer</span>,{' '}
+          <span className='qoute'>frontend developer</span>, and currently a{' '}
+          <span className='qoute'>
+            Master’s student in Computer Engineering
+          </span>{' '}
+          at Okan University. I’m passionate about building modern, responsive
+          web applications and excited to grow professionally in the frontend
+          field. With a solid foundation in programming and design, I’m eager to
+          join a dynamic team, contribute to impactful projects, and continue
+          learning through hands-on experience. Thank you for considering me.
         </p>
         <h1>
           My <span className='span'>Resume</span>
