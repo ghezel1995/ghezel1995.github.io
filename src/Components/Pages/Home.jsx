@@ -1,5 +1,5 @@
-import React from 'react';
 import me from '../../asset/mahsa.jpg';
+import { Link } from 'react-router-dom';
 import './style.css';
 
 export default function Home() {
@@ -24,9 +24,10 @@ export default function Home() {
             <i className='bi bi-github s-icons'></i>
           </a>
         </div>
-        <a href='./contact' className='btn btn-outline-secondary'>
+
+        <Link to='contact' className='btn btn-outline-secondary'>
           Contact Me
-        </a>
+        </Link>
       </div>
       <div className='col-12 col-lg-6  home-body'>
         <img
