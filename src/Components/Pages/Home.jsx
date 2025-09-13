@@ -23,6 +23,13 @@ export default function Home() {
           >
             <i className='bi bi-github s-icons'></i>
           </a>
+          <a
+            href='https://www.instagram.com/mahsa_in_tech'
+            target='_blank'
+            rel='noreferrer'
+          >
+            <i className='bi bi-instagram s-icons'></i>
+          </a>
         </div>
 
         <Link to='contact' className='btn btn-outline-secondary'>
