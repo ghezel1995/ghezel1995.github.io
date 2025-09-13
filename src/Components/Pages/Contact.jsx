@@ -1,5 +1,5 @@
 import React from 'react';
-import pic from '../../asset/mahsa.jpg';
+import pic from '../../asset/my_linkedin.png';
 
 export default function Contact() {
   return (
@@ -32,7 +32,7 @@ export default function Contact() {
         </div>
       </div>
       <div className='col-md-6 d-flex justify-content-center align-items-center'>
-        <img className='contact-image' src={pic} alt='' />
+        <img className='contact-image' src={pic} alt='Link to my LinkedIn' />
       </div>
     </div>
   );
