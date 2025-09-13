@@ -1,4 +1,3 @@
-import React from 'react';
 import aboutImg from '../../asset/about.svg';
 import Resume from './Resume';
 import { Link } from 'react-router-dom';
@@ -31,7 +30,7 @@ export default function About() {
           web applications and excited to grow professionally in the frontend
           field. With a solid foundation in programming and design, I’m eager to
           join a dynamic team, contribute to impactful projects, and continue
-          learning through hands-on experience. Thank you for considering me.
+          learning through hands-on experience. 
         </p>
         <h1>
           My <span className='span'>Resume</span>

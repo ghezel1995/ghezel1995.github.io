@@ -1,4 +1,5 @@
 import logoTechniq from '../../asset/logo_Technical-and-Vocational-University-TVU.jpg';
+import okanLogo from '../../asset/okan.png'
 import meta from '../../asset/certificates/C67N7RKEJ7DK.jpeg';
 import reactCer from '../../asset/certificates/169865.png';
 import responsive from '../../asset/certificates/168338.png';
@@ -13,6 +14,14 @@ export default function Resume() {
         <h1 className='h1-about'>Educations</h1>
         <div className='educations row'>
           <div className='sections col-md'>
+            <img src={okanLogo} alt='' className='logoImg' />
+            <div className='degrees'>
+              <h5>Computer Engineering</h5>
+              <h6>Master's Degree</h6>
+              <small>Istanbul Okan University - [ present ]</small>
+            </div>
+          </div>
+          <div className='sections col-md'>
             <img src={logoTechniq} alt='' className='logoImg' />
             <div className='degrees'>
               <h5>Computer Software Technology Engineering</h5>
@@ -20,14 +29,7 @@ export default function Resume() {
               <small>Technical and Vocational University - [ 2021 ]</small>
             </div>
           </div>
-          <div className='sections col-md'>
-            <img src={logoTechniq} alt='' className='logoImg' />
-            <div className='degrees'>
-              <h5>Computer Software</h5>
-              <h6>Associate Degree</h6>
-              <small>Technical and Vocational University - [ 2016 ]</small>
-            </div>
-          </div>
+          
         </div>
         <h1 className='h1-about'>Certificates</h1>
         <div className='certificates'>
