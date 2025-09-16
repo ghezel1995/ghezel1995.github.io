@@ -20,9 +20,9 @@ export default function About() {
           About <span className='span'>Me</span>
         </h1>
         <p className='about-p'>
-          I am <span className='qoute'>Mahsa Ghezel</span>, a 29-year-old{' '}
+          I am <span className='qoute'>Mahsa</span>, a{' '}
           <span className='qoute'>software engineer</span>,{' '}
-          <span className='qoute'>frontend developer</span>, and currently a{' '}
+          <span className='qoute'>frontend developer</span>, and currently {' '}
           <span className='qoute'>
             Master’s student in Computer Engineering
           </span>{' '}
